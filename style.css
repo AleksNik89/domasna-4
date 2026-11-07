@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #fff8f0;
+    color: #40251d;
+    line-height: 1.6;
+}
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #4b2118;
+    color: white;
+    padding: 15px 20px;
+    z-index: 1000;
+}
+header h1 {
+    display: inline-block;
+    margin: 0 25px 0 0;
+    color: #ffd58a;
+    font-size: 26px;
+}
+
+nav {
+    display: inline-block;
+}
+
+nav a {
+    display: inline-block;
+    padding: 8px 12px;
+    margin: 3px;
+    color: white;
+    background-color: #75402d;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background-color: #b86b42;
+}
+
+
+main {
+    max-width: 1000px;
+    margin: 25px auto;
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 35px;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+
+section h2 {
+    position: sticky;
+    top: 100px;
+    background-color: #d8edb5;
+    color: #355426;
+    padding: 10px;
+    border-radius: 6px;
+    z-index: 10;
+}
+
+
+.blok {
+    display: block;
+    background-color: #f4d4bd;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+
+.inline-tekst {
+    display: inline;
+    background-color: #ffe29a;
+    padding: 3px;
+}
+
+
+.oznaka {
+    display: inline-block;
+    background-color: #e7b9d0;
+    padding: 8px 14px;
+    margin: 5px;
+    border-radius: 6px;
+}
+
+
+.karticka {
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    min-width: 220px;
+    margin: 1%;
+    padding: 15px;
+    background-color: #f5d5a5;
+    border: 2px solid #b77a45;
+    border-radius: 12px;
+}
+
+
+.novo {
+    position: absolute;
+    top: 8px;
+    right: 20px;
+    background-color: #d93636;
+    color: white;
+    padding: 5px 12px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+
+.karticka img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+.cena {
+    display: inline-block;
+    background-color: #6c3b27;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
+.kopce {
+    display: inline-block;
+    background-color: #4b2118;
+    color: white;
+    padding: 9px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 6px;
+}
+
+.kopce:hover {
+    background-color: #a65e36;
+}
+
+
+#pocetna {
+    background-color: #f9e3c5;
+}
+
+#proizvodi {
+    background-color: #f2e0ce;
+}
+
+#za-nas {
+    background-color: #e5e8d1;
+}
+
+#kontakt {
+    background-color: #ead3c4;
+}
+
+.nazad {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    background-color: #75402d;
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    z-index: 1001;
+}
+
+
+footer {
+    background-color: #4b2118;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffd58a;
+}
